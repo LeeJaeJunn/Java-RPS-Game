@@ -20,7 +20,7 @@ class rpsGame {
         user = stdIn.nextInt();
       } while (user < 0 || user > 2);
 
-      System.out.println("computer : " + hands[com] + "user : " + hands[user]);
+      System.out.println("computer: " + hands[com] + "  user: " + hands[user]);
 
       int judge = (user - com + 3) % 3;
       switch (judge) {
